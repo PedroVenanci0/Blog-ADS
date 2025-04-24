@@ -6,32 +6,29 @@
   <title>Blog da Turma – Home</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
+<body class="homepage">
   <header>
     <h1>Blog da Turma</h1>
   </header>
 
   <div id="leiaute-flex">
-    <nav>
-      <h2>Seções</h2>
-      <ul>
-        <li><a href="publicacoes.html">Publicações</a></li>
-        <li><a href="criadores.html">Criadores</a></li>
-        <li><a href="links.html">Links</a></li>
-      </ul>
-    </nav>
-
     <main>
-      <section>
-        <h2>Bem-vindo!</h2>
-        <p>Este é o nosso espaço para compartilhar aprendizados e projetos de web. Navegue pelas seções!</p>
+      <!-- Cápsulas de navegação -->
+      <section class="hero">
+        <h2>Seções</h2>
+        <div class="capsules">
+          <a href="publicacoes.html" class="capsule">📄 Publicações</a>
+          <a href="criadores.html" class="capsule">👩‍💻 Criadores</a>
+          <a href="links.html"     class="capsule">🔗 Links</a>
+        </div>
+      </section>
+
+      <!-- Sobre, sempre abaixo das cápsulas -->
+      <section class="about">
+        <h2>Sobre</h2>
+        <p>Blog colaborativo da turma de ADS – Campus Teresina Central.</p>
       </section>
     </main>
-
-    <aside>
-      <h2>Sobre</h2>
-      <p>Blog colaborativo da turma de ADS – Campus Teresina Central.</p>
-    </aside>
   </div>
 
   <footer>
