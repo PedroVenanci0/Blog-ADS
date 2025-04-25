@@ -3,7 +3,7 @@
 :root {
   /* Paleta “rock” */
   --bg-dark:          #111111;
-  --bg-texture: url('https://i.imgur.com/0KFBHTB.jpg');
+  --bg-texture: url('imagens/bg-texture.jpg');
   --primary-red:      #e63946;
   --accent-metal:     #c0c0c0;
   --text-light:       #f5f5f5;
