@@ -333,10 +333,18 @@ footer {
   color: var(--primary-red);
 }
 
+.card {
+  position: relative;
+  height: 100%;
+  padding-bottom: 5rem; 
+}
+
 .social-icons {
-  margin-top: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: center;
   gap: 1rem;
 }
 
@@ -344,7 +352,7 @@ footer {
   width: 24px;
   height: 24px;
   filter: brightness(0) invert(1);
-  transition: transform var(--transition), filter var(--transition);
+  transition: transform 0.3s, filter 0.3s;
 }
 
 .social-icons a:hover img {
