@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Links – Blog da Turma</title>
   <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+  <div class="rain-container"></div>
   <header>
     <h1>Links Importantes</h1>
     <a class="voltar" href="index.html">← Voltar</a>
@@ -15,16 +17,49 @@
   <div id="leiaute-flex">
     <main>
       <ul class="link-list">
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML – MDN</a></li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS – MDN</a></li>
-        <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
-        <li><a href="https://caniuse.com/" target="_blank">Can I use?</a></li>
+        <li class="monster-card">
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+            <img src="imagens/Drácula.jpg" alt="Drácula">
+            <div class="card-content">
+              <i class="fas fa-skull"></i>
+              <span>HTML – MDN</span>
+            </div>
+          </a>
+        </li>
+        <li class="monster-card">
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+            <img src="imagens/Frankenstein.png" alt="Frankenstein">
+            <div class="card-content">
+              <i class="fas fa-ghost"></i>
+              <span>CSS – MDN</span>
+            </div>
+          </a>
+        </li>
+        <li class="monster-card">
+          <a href="https://css-tricks.com/" target="_blank">
+            <img src="imagens/Múmia.png" alt="Múmia">
+            <div class="card-content">
+              <i class="fas fa-spider"></i>
+              <span>CSS-Tricks</span>
+            </div>
+          </a>
+        </li>
+        <li class="monster-card">
+          <a href="https://caniuse.com/" target="_blank">
+            <img src="imagens/Lobisomem.png" alt="Lobisomem">
+            <div class="card-content">
+              <i class="fas fa-bone"></i>
+              <span>Can I use?</span>
+            </div>
+          </a>
+        </li>
       </ul>
     </main>
   </div>
 
   <footer>
-    <p>Desenvolvido por: Felipe Marques, Kawã Sousa , Pedro Venâncio</p>
+    <p>Desenvolvido por: Felipe Marques, Kawã Sousa, Pedro Venâncio</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
